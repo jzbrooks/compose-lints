@@ -24,6 +24,7 @@ lint {
 
 dependencies {
   compileOnly(libs.lint.api)
+  compileOnly(libs.lint)
   ksp(libs.autoService.ksp)
   implementation(libs.autoService.annotations)
   testImplementation(libs.bundles.lintTest)
